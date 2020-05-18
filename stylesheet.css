@@ -29,10 +29,10 @@ main{
   width:80%;
   margin-left:10%;
   margin-right: 10%;
+  display: flex;
 }
 .img1{
   display: block;
-  float:left;
   margin:50px 0px 0px 60px;
 }
 .img2{
@@ -146,7 +146,27 @@ footer{
 
 @media(max-width:670px){
   main{
-    height:3600px;
+    height:3700px;
+  }
+  .copy-main{
+    height: 260px;
+    display: block;
+  }
+  .img1{
+    display:block;
+    margin:0 auto;
+  }
+  .img2{
+    display:block;
+    padding-top:0px;
+    margin:0 auto;
+  }
+  .copy-sub{
+    height:100px;
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    font-size:12px;
   }
   .member{
     height:1800px;
